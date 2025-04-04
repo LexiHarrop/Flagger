@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		45202B022D9D7BA100EE5597 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45202AFC2D9D7BA100EE5597 /* Preview Assets.xcassets */; };
+		45202B032D9D7BA100EE5597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45202AFE2D9D7BA100EE5597 /* Assets.xcassets */; };
+		45202B042D9D7BA100EE5597 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202AFF2D9D7BA100EE5597 /* LandingView.swift */; };
+		45202B052D9D7BA100EE5597 /* FlaggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202B002D9D7BA100EE5597 /* FlaggerApp.swift */; };
+		45202B082D9D7BCE00EE5597 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202B072D9D7BCE00EE5597 /* Category.swift */; };
+		45202B0A2D9D7C1300EE5597 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202B092D9D7C1300EE5597 /* State.swift */; };
+		45202B0D2D9D7CA300EE5597 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202B0C2D9D7C9E00EE5597 /* States.swift */; };
+		45202B0F2D9D80E400EE5597 /* QuizStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202B0E2D9D80E400EE5597 /* QuizStartView.swift */; };
+		45202B112D9D86C200EE5597 /* CategoryStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202B102D9D86C200EE5597 /* CategoryStructure.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		45202AE82D9D7A2200EE5597 /* Flagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45202AFC2D9D7BA100EE5597 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45202AFE2D9D7BA100EE5597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45202AFF2D9D7BA100EE5597 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		45202B002D9D7BA100EE5597 /* FlaggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaggerApp.swift; sourceTree = "<group>"; };
+		45202B072D9D7BCE00EE5597 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		45202B092D9D7C1300EE5597 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		45202B0C2D9D7C9E00EE5597 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		45202B0E2D9D80E400EE5597 /* QuizStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizStartView.swift; sourceTree = "<group>"; };
+		45202B102D9D86C200EE5597 /* CategoryStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		45202AEA2D9D7A2200EE5597 /* Flagger */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Flagger;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		45202AE52D9D7A2200EE5597 /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		45202ADF2D9D7A2200EE5597 = {
 			isa = PBXGroup;
 			children = (
-				45202AEA2D9D7A2200EE5597 /* Flagger */,
+				45202B012D9D7BA100EE5597 /* Flagger */,
 				45202AE92D9D7A2200EE5597 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,54 @@
 				45202AE82D9D7A2200EE5597 /* Flagger.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		45202AFB2D9D7BA100EE5597 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45202B072D9D7BCE00EE5597 /* Category.swift */,
+				45202B092D9D7C1300EE5597 /* State.swift */,
+				45202B102D9D86C200EE5597 /* CategoryStructure.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45202AFD2D9D7BA100EE5597 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45202AFC2D9D7BA100EE5597 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45202B012D9D7BA100EE5597 /* Flagger */ = {
+			isa = PBXGroup;
+			children = (
+				45202B002D9D7BA100EE5597 /* FlaggerApp.swift */,
+				45202AFD2D9D7BA100EE5597 /* Preview Content */,
+				45202AFB2D9D7BA100EE5597 /* Models */,
+				45202B0B2D9D7C8E00EE5597 /* Data */,
+				45202B062D9D7BA400EE5597 /* Views */,
+				45202AFE2D9D7BA100EE5597 /* Assets.xcassets */,
+			);
+			path = Flagger;
+			sourceTree = "<group>";
+		};
+		45202B062D9D7BA400EE5597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45202AFF2D9D7BA100EE5597 /* LandingView.swift */,
+				45202B0E2D9D80E400EE5597 /* QuizStartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45202B0B2D9D7C8E00EE5597 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				45202B0C2D9D7C9E00EE5597 /* States.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +120,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				45202AEA2D9D7A2200EE5597 /* Flagger */,
 			);
 			name = Flagger;
 			packageProductDependencies = (
@@ -109,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45202B022D9D7BA100EE5597 /* Preview Assets.xcassets in Resources */,
+				45202B032D9D7BA100EE5597 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45202B042D9D7BA100EE5597 /* LandingView.swift in Sources */,
+				45202B052D9D7BA100EE5597 /* FlaggerApp.swift in Sources */,
+				45202B0F2D9D80E400EE5597 /* QuizStartView.swift in Sources */,
+				45202B0D2D9D7CA300EE5597 /* States.swift in Sources */,
+				45202B082D9D7BCE00EE5597 /* Category.swift in Sources */,
+				45202B0A2D9D7C1300EE5597 /* State.swift in Sources */,
+				45202B112D9D86C200EE5597 /* CategoryStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
