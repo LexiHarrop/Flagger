@@ -9,7 +9,7 @@ import Foundation
 
 enum Category: String, CaseIterable, Identifiable {
     
-    case global, northAmerica, europe, oceania
+    case global, northAmerica, europe, southAmerica, africa, asia, oceania
     
     var id: String { self.rawValue }
     
@@ -18,20 +18,29 @@ enum Category: String, CaseIterable, Identifiable {
         case .global: "Global"
         case .northAmerica: "North America"
         case .europe: "Europe"
+        case .southAmerica:
+            "South America"
+        case .africa:
+            "Africa"
+        case .asia:
+            "Asia"
+        case .oceania:
+            "Oceania"
         }
     }
 
     var image: String {
         return switch self {
         case .northAmerica: "northAmerica"
-        case .europe, .global: self.name.lowercased()
+        case .europe, .global, .africa, .asia, .oceania: self.name.lowercased()
+        case .southAmerica: "southAmerica"
         }
     }
 
     var nationality: String {
         return switch self {
         case .global: self.name
-        case .northAmerica: self.name + "n"
+        case .northAmerica, .southAmerica, .africa, .asia, .oceania : self.name + "n"
         case .europe: self.name + "an"
         }
     }
