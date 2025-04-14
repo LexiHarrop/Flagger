@@ -25,7 +25,7 @@ struct ContentView: View {
                             ZStack {
                                 Color.secondary
                                     .cornerRadius(10.0)
-                                NavigationLink(destination: Text(category.name)) {
+                                NavigationLink(destination: QuizStartView(category: category)) {
                                     HStack {
                                         Text(category.name)
                                             .font(.title)

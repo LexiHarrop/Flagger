@@ -44,4 +44,5 @@ enum Category: String, CaseIterable, Identifiable {
         case .europe: self.name + "an"
         }
     }
+    
 }
